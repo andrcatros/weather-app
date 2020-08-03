@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForecastSummaries renders the correct amount of ForecastSummary components 1`] = `
+<DocumentFragment>
+  <div
+    class="forecast-summaries"
+  >
+    <div
+      class="daily-forecast"
+    >
+       
+      <div
+        class="date"
+        data-testid="date-id"
+      >
+        Thu Jan 01
+      </div>
+      <div
+        class="temperature"
+        data-testid="temperature-id"
+      >
+        999 
+      </div>
+      <div
+        class="description"
+        data-testid="description-id"
+      >
+         date1 
+      </div>
+      <div>
+        <i
+          class="wi wi-day-sunny"
+          data-testid="icon-id"
+          name="owm"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="daily-forecast"
+    >
+       
+      <div
+        class="date"
+        data-testid="date-id"
+      >
+        Thu Jan 01
+      </div>
+      <div
+        class="temperature"
+        data-testid="temperature-id"
+      >
+        777 
+      </div>
+      <div
+        class="description"
+        data-testid="description-id"
+      >
+         date2 
+      </div>
+      <div>
+        <i
+          class="wi wi-day-sunny"
+          data-testid="icon-id"
+          name="owm"
+        />
+      </div>
+    </div>
+     
+  </div>
+</DocumentFragment>
+`;
