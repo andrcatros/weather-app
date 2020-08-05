@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Icon from "./icon";
 import moment from "moment";
+import "../styles/dailyforecast.css";
 
 const DailyForecast = ({ date, temperature, description, icon, onSelect }) => {
   const finalDate = moment(date).format("ddd MMM DD");
@@ -18,7 +19,16 @@ const DailyForecast = ({ date, temperature, description, icon, onSelect }) => {
           {description}
         </div>
         <Icon iconId={icon} />
-        <button onClick={() => onSelect(date)}>More details </button>
+        <button
+          onClick={() => onSelect(date)}
+          style={{
+            backgroundColor: "white",
+            border: "1px solid",
+            boxShadow: "3px",
+          }}
+        >
+          More details{" "}
+        </button>
       </div>
     </>
   );

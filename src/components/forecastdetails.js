@@ -9,8 +9,8 @@ const ForecastDetails = ({ forecast }) => {
         <h2>{finalDate} </h2>
       </div>
       <div className="temperature" data-testid="temperature-id">
-        {<b>Max Temperature:</b>} {forecast.temperature.max} <br />
-        {<b>Min Temperature:</b>} {forecast.temperature.min}
+        {<b>Max Temperature:</b>} {forecast.temperature.max} °C <br />
+        {<b>Min Temperature:</b>} {forecast.temperature.min} °C
       </div>
       <div className="humidity" data-testid="humidity-id">
         {"Humidity: "}

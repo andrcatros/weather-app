@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-
-//import {location} from './data/forecast.json'
-//import {forecasts} from './data/forecast.json'
+import App from "../src/components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
